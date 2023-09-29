@@ -58,19 +58,19 @@ setup(
     long_description_content_type='text/markdown',
     install_requires=[
         'tqdm',
-        'numpy>=1.16.6',
-        'pydot>=1.4.2,<2',  # for keras.utils.plot_model
-        'scipy>=1.2.3,<2',
-        'scikit-image>=0.19.3',
-        'scikit-learn>=0.20.4',
-        'tensorflow>=2.8.0',
-        'tensorflow_addons',
-        'spektral>=1.0.4',
-        'jupyter>=1.0.0,<2',
+        'numpy',
+        'pydot',  # for keras.utils.plot_model
+        'scipy',
+        'scikit-image',
+        'scikit-learn',
+        'tensorflow',
+        'tensorflow-addons',
+        'spektral',
+        'jupyter',
         'matplotlib',
         'opencv-python-headless<5',
-        'deepcell-tracking>=0.6.1',
-        'deepcell-toolbox>=0.12.1'
+        'deepcell-tracking',
+        'deepcell-toolbox'
     ],
     extras_require={
         'tests': ['pytest', 'pytest-cov', 'ruff'],
