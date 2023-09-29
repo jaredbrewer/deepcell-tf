@@ -63,13 +63,13 @@ setup(
         'scipy>=1.2.3,<2',
         'scikit-image>=0.19.3',
         'scikit-learn>=0.20.4',
-        'tensorflow~=2.8.0',
-        'tensorflow_addons~=0.16.1',
-        'spektral~=1.0.4',
+        'tensorflow>=2.8.0',
+        'tensorflow_addons>=0.16.1',
+        'spektral>=1.0.4',
         'jupyter>=1.0.0,<2',
         'matplotlib',
         'opencv-python-headless<5',
-        'deepcell-tracking~=0.6.1',
+        'deepcell-tracking>=0.6.1',
         'deepcell-toolbox>=0.12.1'
     ],
     extras_require={
